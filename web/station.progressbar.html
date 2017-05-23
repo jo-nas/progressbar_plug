@@ -1,0 +1,10 @@
+<div *ngIf="progressbar">
+  <div class="progress-header">
+    <div class="progress">
+        <div class="determinate" style="width: {{progressbar.progress}}%"></div>
+    </div>
+    <div class="status">
+        {{progressbar.progress}} %
+    </div>
+  </div>
+</div>

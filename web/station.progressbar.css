@@ -1,0 +1,43 @@
+:host >>> .message-container {
+  text-align: left;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 100%;
+}
+:host >>> .progress{
+    flex: 4;
+    align-self: center;
+    position: relative;
+    height: 10px;
+    display: block;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    overflow: hidden;
+    margin:0;
+ }
+
+:host >>> .progress .determinate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    weight:0%;
+    background-color: #464646;
+    transition: width .3s linear;
+}
+:host >>> .progress-header{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+}
+
+:host >>> .name {
+    margin-right: 20px;
+}
+
+:host >>> .status {
+    margin-left: 20px;
+}
