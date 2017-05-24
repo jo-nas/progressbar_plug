@@ -31,4 +31,4 @@ python setup.py install
 ## Licence
 
 ## Authors
-*progressbar_plug* was written by *(Jonas Steinkamp)[https://jonas.steinka.mp] <jonas@steinka.mp>*.
+*progressbar_plug* was written by *[Jonas Steinkamp](https://jonas.steinka.mp) <jonas@steinka.mp>*.
