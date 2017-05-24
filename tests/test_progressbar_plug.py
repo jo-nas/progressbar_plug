@@ -66,12 +66,29 @@ def test_it_sends_a_notify_update_every_time_status_has_changed(progressbar_crea
     assert progressbar_created.notifyed == 3  # First Call when progressbar will be created
 
 
+def test_it_sends_no_notify_update_if_message_has_not_changed(progressbar_created):
+    progressbar_created.message = 500
+    progressbar_created.message = 500
+    assert progressbar_created.notifyed == 2  # First Call when progressbar will be created
+
+
+def test_it_can_set_and_get_the_message(progressbar_created):
+    progressbar_created.message = 500
+    assert progressbar_created.status == 500
+
+
+def test_it_sends_a_notify_update_every_time_message_has_changed(progressbar_created):
+    progressbar_created.message = 500
+    progressbar_created.message = 20
+    assert progressbar_created.notifyed == 3  # First Call when progressbar will be created
+
+
 def test_it_sends_no_notify_update_if_status_has_not_changed(progressbar_created):
     progressbar_created.status = 500
     progressbar_created.status = 500
     assert progressbar_created.notifyed == 2  # First Call when progressbar will be created
-
-
+    
+    
 def test_it_can_set_and_get_the_progress(progressbar_created):
     progressbar_created.progress = 60
     assert progressbar_created.progress == 60
