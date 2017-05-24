@@ -83,8 +83,9 @@ class ProgressBar(plugs.FrontendAwareBasePlug):
 
     @message.setter
     def message(self, value):
-        self._message = value
-        self.notify_update()
+        if value != self.message:
+            self._message = value
+            self.notify_update()
 
     def _asdict(self):
         """Return a dict representation of the current progressbar."""
