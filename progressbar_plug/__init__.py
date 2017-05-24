@@ -122,7 +122,7 @@ class ProgressBar(plugs.FrontendAwareBasePlug):
         self.notify_update()
         return self.id
 
-    def remove_progressbar(self):
+    def tearDown(self):
         self._progressbar_tqdm.close()
         self._progressbar_tqdm = None
         self._id = None

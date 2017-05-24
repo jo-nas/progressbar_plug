@@ -138,8 +138,8 @@ def test_it_has_all_fields_in_the_dict_if_as_dict_is_called_on_a_created_progres
     assert progressbar["status"] == ""
 
 
-def test_it_closed_the_progressbar_on_close(progressbar_created):
-    progressbar_created.remove_progressbar()
+def test_it_closed_the_progressbar_on_tearDown(progressbar_created):
+    progressbar_created.tearDown()
 
     assert progressbar_created._progressbar_tqdm is None
     assert progressbar_created.id is None
