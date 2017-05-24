@@ -74,7 +74,7 @@ def test_it_sends_no_notify_update_if_status_has_not_changed(progressbar_created
 
 def test_it_can_set_and_get_the_message(progressbar_created):
     progressbar_created.message = "Test"
-    assert progressbar_created.status == "Test"
+    assert progressbar_created.message == "Test"
 
 
 def test_it_sends_a_notify_update_every_time_message_has_changed(progressbar_created):
