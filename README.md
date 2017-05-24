@@ -1,5 +1,5 @@
 # OpenHTF Progressbar Plug
-[![Build Status](https://travis-ci.org/jo-nas/progressbar_plug.svg?branch=master)](https://travis-ci.org/jo-nas/progressbar_plug)
+[![Build Status](https://travis-ci.org/jo-nas/progressbar_plug.svg?branch=master)](https://travis-ci.org/jo-nas/progressbar_plug) [![Coverage Status](https://coveralls.io/repos/github/jo-nas/progressbar_plug/badge.svg?branch=master)](https://coveralls.io/github/jo-nas/progressbar_plug?branch=master)
 
 
 In this package you will find a plug for the Open Hardware Test Framwork.
