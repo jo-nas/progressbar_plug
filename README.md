@@ -1,17 +1,16 @@
-OpenHTF Progressbar Plug
+# OpenHTF Progressbar Plug
 ---------------------------------------
-[![Build Status](https://travis-ci.org/jonas-steinkamp/progressbar_plug.svg?branch=master)](https://travis-ci.org/jonas-steinkamp/progressbar_plug)
+[![Build Status](https://travis-ci.org/jo-nas/progressbar_plug.svg?branch=master)](https://travis-ci.org/jo-nas/progressbar_plug)
 
 In this package you will find a plug for the Open Hardware Test Framwork.
 
-Usage
----------------------------------------
+## Usage
 ```
+git clone <repository_link>
 python setup.py install
 ```
 
-Installation
----------------------------------------
+## Installation
 To install this plug, everything in the web folder must be copied into the frontend app folder of the openhtf package.
 
 This line should be copied after the prompt component in the station.html file.
@@ -26,13 +25,10 @@ This line should be copied after the prompt component in the station.html file.
 python setup.py install
 ```
 
-Requirements
----------------------------------------
+## Requirements
 (tqdm)[https://github.com/tqdm/tqdm]: A fast, extensible progress bar for Python and CLI
 
-Licence
----------------------------------------
+## Licence
 
-Authors
----------------------------------------
+## Authors
 *progressbar_plug* was written by *(Jonas Steinkamp)[https://jonas.steinka.mp] <jonas@steinka.mp>*.
