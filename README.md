@@ -26,7 +26,8 @@ python setup.py install
 ```
 
 ## Requirements
-[tqdm](https://github.com/tqdm/tqdm): A fast, extensible progress bar for Python and CLI
+[tqdm](https://github.com/tqdm/tqdm): A fast, extensible progress bar for Python and CLI.
+
 [OpenHTF](https://github.com/google/openhtf): The open-source hardware testing framework.
 
 ## Licence
